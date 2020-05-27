@@ -1,0 +1,27 @@
+@media screen and (min-width: 900px) {
+  .header {
+    padding: 0.75em 3.75em 0.5em 2.75em;
+  }
+
+  .team-and-teammates__wrap-teammate {
+    width: 27%;
+  }
+
+  .footer__navigation-list {
+    width: 27%;
+  }
+
+  .footer__social-list {
+    width: 20%;
+  }
+
+  .footer__navigation {
+    padding: 0 1em 1em 1.5em;
+  }
+
+  .footer__disclaimers-list
+  .footer__disclaimers-list-item {
+    margin-right: 1em;
+  }
+
+}

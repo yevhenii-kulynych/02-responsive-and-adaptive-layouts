@@ -1,0 +1,66 @@
+@media screen and (min-width: 480px) {
+  body {
+    position: relative;
+    padding-top: 14.0625em;
+  }
+
+  .header {
+    padding: 0.5em 1.375em 0;
+    transition: 1s;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .header__form-input-button {
+    padding: 0.625em 1.5em;
+  }
+
+  .mission-info {
+    padding: 8em 4em 5em;
+  }
+
+  .about {
+    padding: 1.25em 4em 2.75em;
+  }
+
+  .team-and-teammates {
+    padding: 1.375em 2em 1em;
+  }
+
+  .team-and-teammates__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .team-and-teammates__wrap-teammate {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .team-and-teammates__title {
+    margin-bottom: 0.5em;
+  }
+
+  .team-and-teammates__bottom-link {
+    margin-top: 2.5em;
+  }
+
+  .newsletter {
+    padding: 1.5em 4em 1em;
+  }
+
+  .newsletter__email-form {
+    margin-top: 1.375em;
+  }
+  .footer {
+    padding: 2.5em 1em 1.125em;
+  }
+  .footer__social-list {
+    padding: 0 6em;
+  }
+}

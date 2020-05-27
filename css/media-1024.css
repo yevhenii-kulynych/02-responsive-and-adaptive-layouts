@@ -1,0 +1,50 @@
+@media screen and (min-width: 1024px) {
+  .header {
+    padding: 0.75em 3.75em 0.5em 3.25em;
+  }
+
+  .mission-info {
+    padding: 19em 7em 5em;
+  }
+
+  .about {
+    padding: 4em 7em 5em;
+  }
+
+  .team-and-teammates {
+    padding: 3.5em 4em 3.5em;
+  }
+
+  .team-and-teammates__title {
+    margin-bottom: 1.75em;
+  }
+
+  .team-and-teammates__wrap-teammate {
+    width: 30%;
+  }
+
+  .team-and-teammates__bottom-link {
+    margin-top: 6.5em;
+  }
+
+  .newsletter {
+    padding: 4em 7em 3.5em;
+  }
+
+  .footer {
+    padding: 0.75em 2em 1.125em;
+  }
+
+  .footer__navigation-list {
+    width: 31%;
+    margin-left: 0;
+  }
+
+  .footer__social-list {
+    width: 19%;
+  }
+
+  .footer__navigation {
+    padding: 0.25em 1em 1em 1.5em;
+  }
+}

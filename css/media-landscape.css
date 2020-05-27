@@ -1,0 +1,14 @@
+@media (orientation: landscape) and (max-width: 1024px){
+  .mission-info,
+  .about,
+  .team-and-teammates,
+  .newsletter {
+    padding: 2em 2em;
+  }
+  .team-and-teammates__title {
+    margin-bottom: 1em;
+  }
+  .team-and-teammates__bottom-link {
+    margin-top: 2em;
+  }
+}

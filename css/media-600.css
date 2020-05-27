@@ -1,0 +1,156 @@
+@media screen and (min-width: 600px) {
+  body {
+    padding-top: 3.5em;
+  }
+  .header {
+    padding: 0.75em 2.75em 0.5em 2em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 1366px;
+  }
+
+  .header__wrapper {
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .header__logo-img {
+    width: 5em;
+  }
+
+  .header__logo-link {
+    margin-left: 0;
+    align-self: center;
+  }
+
+  .header__navigation {
+    display: inline-block;
+    margin-top: 0;
+  }
+
+  .header__form {
+    order: 3;
+  }
+
+  .header__navigation-list {
+    float: right;
+  }
+
+  .header__navigation-list
+  .header__navigation-list-item {
+    display: inline-block;
+    padding: 0;
+  }
+
+  .header__navigation-list
+  .header__navigation-list-item:first-child,
+  .header__navigation-list
+  .header__navigation-list-item {
+    border: none;
+    margin-right: 1.875em;
+  }
+
+  .header__navigation-list
+  .header__navigation-list-item
+  .header__navigation-list-link {
+    font-size: 0.875em;
+  }
+
+  .mission-info {
+    padding: 9.75em 5em 5em;
+  }
+
+  .about {
+    padding: 1.25em 5em 2.75em;
+  }
+
+  .team-and-teammates {
+    padding: 1.375em 7em 1em;
+  }
+
+  .newsletter {
+    padding: 1.5em 5em 1em;
+  }
+
+  .newsletter__email-form {
+    margin-top: 1.25em;
+  }
+
+  .team-and-teammates__form-img {
+    right: 0.75em;
+    top: 0.75em;
+  }
+  .footer {
+    padding: 1em 2em 1.125em;
+    transition: 1s;
+  }
+
+  .footer__navigation {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.25em;
+  }
+
+  .footer__navigation-list {
+    display: flex;
+    align-items: center;
+    width: 41%;
+    justify-content: space-between;
+  }
+  .footer__navigation-list
+  .footer__navigation-list-item {
+     margin: 0 0;
+  }
+
+  .footer__navigation-list
+  .footer__navigation-list-item
+  .footer__navigation-list-item-link,
+  .footer__social-list
+  .footer__social-list-item
+  .footer__social-list-item-link {
+    color: #d7dee4;
+    font-size: 0.75em;
+  }
+
+  .footer__social-list {
+    padding: 0;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer__social-list
+  .footer__social-list-item {
+    width: 2.75em;
+    height: 2.75em;
+  }
+
+  .footer__disclaimers-list {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .footer__disclaimers-list
+  .footer__disclaimers-list-item {
+     margin-bottom: 0;
+    margin-right: 0.625em;
+  }
+
+  .footer__disclaimers-list
+  .footer__disclaimers-list-item
+  .footer__privacy-etc-list-link {
+    font-size: 0.75em;
+  }
+
+  .footer__disclaimers-list {
+    padding-top: 1em;
+  }
+
+  .footer__disclaimers-list-item:not(.v-line) {
+      border-right: 1px solid #858686;
+      padding-right: 0.625em;
+  }
+
+}
+
